@@ -33,7 +33,7 @@ const TAXONOMY = [
     groups: [
       { label: 'Balance', themes: ['Equilibrium', 'Moderation', 'Cyclical'] },
       { label: 'Change',  themes: ['Transformation', 'Adaptation', 'Flow'] },
-      { label: 'Mystery', themes: ['Unknown', 'Potential', 'Ambiguity'] },
+      { label: 'Mystery', themes: ['Unknown', 'Potentia', 'Ambiguity'] },
     ],
   },
   {
