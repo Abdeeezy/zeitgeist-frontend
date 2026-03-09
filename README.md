@@ -2,7 +2,7 @@
 
 A GPU-accelerated n-body particle simulation driven by thematic analysis of news articles.
 
-![Zeitgeist Engine](docs/screenshot.png)
+![Zeitgeist Engine In Action (recording)](https://github.com/Abdeeezy/zeitgeist-frontend/issues/1#issue-4043566098)
 
 ## Overview
 
@@ -45,8 +45,8 @@ zeitgeist-engine/
 
 
 ## To-Do
-- CPU-mode trunacates the amount of rendered particles to a maximum of 2000 particles. (CPU processing is slow.)
-    - Does so in a way that maintains the ratio-profile of the particle-types.  
+- CPU-mode should truncate the amount of rendered particles to a maximum of 2000 particles. (CPU processing is extremely slow relative to the GPUs capabilities..)
+    - Should do so in a way that maintains the ratio-profile of the particle-types.  
 
 
 ## Setup
