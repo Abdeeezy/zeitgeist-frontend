@@ -2,7 +2,7 @@
 
 A GPU-accelerated n-body particle simulation driven by thematic analysis of news articles.
 
-![Zeitgeist Engine](docs/screenshot.png)
+![Zeitgeist Engine In Action (recording)](https://github.com/Abdeeezy/zeitgeist-frontend/issues/1#issue-4043566098)
 
 ## Overview
 
