@@ -8,7 +8,7 @@ A GPU-accelerated n-body particle simulation driven by thematic analysis of news
 
 The Zeitgeist Engine visualizes the "spirit of the times" by transforming news articles into an interactive 3D particle simulation. Each of the 27 particle types represents a thematic concept (Renewal, Compassion, Entropy, Tyranny, etc.) organized into a moral hierarchy of Good, Neutral, and Evil alignments.
 
-Particle interactions are governed by a **semantic attraction matrix** — not random — derived from:
+Particle interactions are governed by a **semantic attraction matrix** - not random - derived from:
 - **Moral alignment**: good attracts good, evil attracts evil, opposites repel
 - **Hierarchical proximity**: sibling themes cluster together
 - **Narrative overrides**: specific dramatic relationships (e.g. Void is drawn to Potential, but Potential flees Void)
@@ -20,7 +20,7 @@ The simulation runs entirely on the GPU via WebGL compute shaders (GPGPU), suppo
 ```
 zeitgeist-engine/
 ├── src/app/
-│   ├── api/articles-backup/   # Next.js API route — Upstash Redis persistence
+│   ├── api/articles-backup/   # Next.js API route - Upstash Redis persistence
 │   ├── components/            # React components
 │   │   ├── ParticleSimulation.tsx   # Main simulation wrapper (CPU/GPU toggle)
 │   │   ├── SimulationCanvas.tsx     # Three.js canvas + fixed-timestep loop
